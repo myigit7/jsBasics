@@ -106,3 +106,44 @@ console.log(1 == "1"); // th result gives "true"
     %= --> mode alma işleminin kısaltması
     **= --> üslü işlemi kısaltmasıdır.
 */
+
+// -------------- MANTIKSAL OPERATOR ----------------
+
+/*
+    && : and ( birden fazla condition olduğunda hepsinin true olması lazım en az bir tanesi false olursa hepsi false olur. )
+    || : or
+    !  : not operator
+*/
+
+let deneme = {
+  name: "yigit",
+  surname: "metin",
+  data: 123,
+};
+
+console.log(typeof deneme);
+
+// ---------------------- POP-UP SCREEN (DIALOG SCREEN) -------------------
+
+/*
+- Alert
+- Prompt
+- Confirm
+
+hepsi "window" objesi içerisinde mevcut ve window.alert-prompt-confirm diye yazabiliriz ama zaten window nesnesinin içinde tüm işlemleri yaptığımız için başına 
+window eklemeden methodu çağırabiliriz.
+*/
+
+// FUNCTION
+
+// alert("Nasılsın?..");
+
+// prompt(); bizimkullanıcıdan input değer almamızı sağlar. Kullanıcıdan ne değer alırsak alalım o değer her zaman "string" data tipindedir. Eğer String
+// olarak kullanmak istemiyorsak data tipini değiştirmek istiyorsak data conversation kullanabiliriz.
+
+// prompt("Enter your name...");
+
+let namee = prompt("Enter your name...");
+console.log(namee);
+
+// confirm de bir mesaj gönderiyoruz ekrana ve bize boolean bir değer gönderiyor.
