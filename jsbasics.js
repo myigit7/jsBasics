@@ -60,8 +60,49 @@ console.log(human);
 
 function rewrite() {
   if (24 > 23) {
-    console.log("You cannot passed :(");    
+    console.log("You cannot passed :(");
   }
 }
 
 console.log(rewrite);
+
+// -------------------- ARITHMETIC OPERATORS --------------
+
+/*
+% --> mode operator
+*/
+
+console.log(10 % 3); // This operator gives the result which is how much "3" have in the 10 than gives the quick results.
+console.log(12 % 5);
+
+// ++ ----> Adding the number which do you use the calculation or whereever you want to increasing one
+
+let z = 10;
+z++;
+// console.log(z); // see the result 11
+
+z--;
+
+console.log(z);
+
+// ** ----> üslü işlem yapmamızı sağlıyor.
+
+// ---------- ATAMA OPERATORU ----------
+
+/*
+    = --> atama opertörü
+    == --> eşittir ama veri tiplerini takmıyor, içlerindeki veri tipleri eşit mi ona bakıyor.
+*/
+console.log(1 == "1"); // th result gives "true"
+/*
+    === --> eşittir ama hem içine hemde datatipine bakıyor.
+*/
+
+/*
+    += --> numarayı arttırmaya yarıyor mesela sayı+=2 dediğimizde sayı değişkenini 2 arttır demiş olduk.
+    -= --> numarayı azaltmaya yarıyor mesela sayı-=2 dediğimizde sayı değişkenini 2 azalt demiş olduk.
+    *= --> numarayı arttırmaya yarıyor mesela sayı*=2 dediğimizde sayı değişkenini 2 ile çarp demiş olduk.
+    /= --> numarayı arttırmaya yarıyor mesela sayı/=2 dediğimizde sayı değişkenini 2 ile böl demiş olduk.
+    %= --> mode alma işleminin kısaltması
+    **= --> üslü işlemi kısaltmasıdır.
+*/
