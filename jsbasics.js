@@ -91,7 +91,7 @@ console.log(z);
 
 /*
     = --> atama opertörü
-    == --> eşittir ama veri tiplerini takmıyor, içlerindeki veri tipleri eşit mi ona bakıyor.
+    == --> eşittir ama veri tiplerini takmıyor, içlerindeki veriler eşit mi ona bakıyor.
 */
 console.log(1 == "1"); // th result gives "true"
 /*
