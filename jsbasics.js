@@ -147,3 +147,8 @@ let namee = prompt("Enter your name...");
 console.log(namee);
 
 // confirm de bir mesaj gönderiyoruz ekrana ve bize boolean bir değer gönderiyor.
+
+// confirm("Silmek istediğinize emin misiniz?");
+
+let message = (confirm("Are you want to delete it?"));
+console.log(message);
